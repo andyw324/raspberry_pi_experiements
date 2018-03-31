@@ -1,0 +1,16 @@
+
+ #####################################################
+
+  MP-Dhrystone Benchmark armv8 64 Bit Tue Mar  7 22:20:45 2017
+
+                    Using 1, 2, 4 and 8 Threads
+
+ Threads                        1        2        4        8
+ Seconds                     0.63     0.77     1.40     2.77
+ Dhrystones per Second    6343818 10382333 11459690 11533058
+ VAX MIPS rating             3611     5909     6522     6564
+
+         Internal pass count correct all threads
+
+         End of test Tue Mar  7 22:20:51 2017
+

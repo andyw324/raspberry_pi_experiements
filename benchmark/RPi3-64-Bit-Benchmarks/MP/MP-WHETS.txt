@@ -1,0 +1,19 @@
+  All calculations produced consistent numeric results
+ #####################################################
+
+  MP-Whetstone Benchmark armv8 64 Bit Tue Mar  7 23:27:25 2017
+
+                    Using 1, 2, 4 and 8 Threads
+
+      MWIPS MFLOPS MFLOPS MFLOPS   Cos   Exp   Fixpt     If  Equal
+                 1      2      3  MOPS  MOPS    MOPS   MOPS   MOPS
+
+ 1T   985.3  336.2  336.3  287.7  18.1  12.3 1478579.3 2331.7 1198.9
+ 2T  1964.8  670.7  672.6  566.7  36.2  24.6 2794892.5 4724.7 2372.4
+ 4T  3900.7 1248.1 1330.8 1139.9  71.6  48.9 3931546.6 9424.8 4747.9
+ 8T  3925.4 1314.4 1349.8 1146.9  72.0  49.1 6508657.2 9578.2 4779.7
+
+   Overall Seconds   4.94 1T,   4.98 2T,   5.14 4T,  10.11 8T
+
+   All calculations produced consistent numeric results
+

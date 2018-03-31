@@ -1,0 +1,64 @@
+ #####################################################
+
+ Livermore Loops Benchmark armv8 64 Bit via C/C++ Thu Feb  2 17:02:41 2017
+
+ MFLOPS for 24 loops
+  475.2  260.8  474.7  463.6  198.8  159.7  638.9  420.5  425.9  225.7  148.9  215.4
+  108.6  139.1  255.8  226.1  386.5  454.7  292.0  246.2  274.8   99.2  306.7  183.4
+
+ Overall Ratings
+ Maximum Average Geomean Harmean Minimum
+   638.9   282.5   252.7   224.6    96.5
+
+ Numeric results were as expected
+
+ ########################################################
+
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+ 
+
+From File /proc/version
+Linux version 4.4.36-8-default (geeko@buildhost) (gcc version 4.8.5 (SUSE Linux) ) #1 SMP Fri Dec 9 16:18:38 UTC 2016 (3ec5648)
+ 
+
+Additional information - 
+

@@ -1,0 +1,12 @@
+# Run via separate terminals - logs < 100 
+# 15 minutes each
+# Change Kwds for RAM or cache test
+# Here 4 x 10 x 4 = 160 KBytes L2 cache
+# Plus temperature and CPU MHz measurements
+
+./RPiHeatMHz64S passes 100 seconds 10
+# For SUSE or RPiHeatMHz64G for Gentoo
+./burninfpuPi64 Kwds 10 Sect 2 Mins 15 Log 21
+./burninfpuPi64 Kwds 10 Sect 2 Mins 15 Log 22
+./burninfpuPi64 Kwds 10 Sect 2 Mins 15 Log 23
+./burninfpuPi64 Kwds 10 Sect 2 Mins 15 Log 24 

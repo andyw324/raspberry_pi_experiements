@@ -1,0 +1,66 @@
+
+##############################################
+
+Whetstone Single Precision C Benchmark  armv8 64 Bit, Thu Feb  2 16:36:39 2017
+
+
+Loop content                   Result              MFLOPS      MOPS   Seconds
+
+N1 floating point      -1.12475013732910156       336.438               0.056
+N2 floating point      -1.12274742126464844       354.132               0.371
+N3 if then else         1.00000000000000000               424560032.000     0.000
+N4 fixed point         12.00000000000000000                1498.647     0.206
+N5 sin,cos etc.         0.49911010265350342                  18.375     4.428
+N6 floating point       0.99999982118606567       287.762               1.833
+N7 assignments          3.00000000000000000                1198.239     0.151
+N8 exp,sqrt etc.        0.75110864639282227                  12.353     2.945
+
+MWIPS                                             978.991               9.990
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+ 
+
+From File /proc/version
+Linux version 4.4.36-8-default (geeko@buildhost) (gcc version 4.8.5 (SUSE Linux) ) #1 SMP Fri Dec 9 16:18:38 UTC 2016 (3ec5648)
+ 
+
+Additional information - 
+

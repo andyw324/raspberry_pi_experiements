@@ -1,0 +1,68 @@
+ #####################################################
+
+   BusSpeed armv8 64 Bit Sat Feb 11 14:12:38 2017
+ 
+    Reading Speed 4 Byte Words in MBytes/Second
+  Memory  Inc32  Inc16   Inc8   Inc4   Inc2   Read
+  KBytes  Words  Words  Words  Words  Words    All
+
+      16   3363   3766   4084   4277   4467   3395
+      32   1357   1473   2127   2936   3664   3226
+      64    580    615   1159   1931   2953   3169
+     128    557    567   1058   1806   2834   3177
+     256    535    542   1023   1750   2780   3175
+     512    300    345    692   1278   2210   2804
+    1024     97    141    278    539   1091   2055
+    4096     93    124    245    478    967   1845
+   16384    120    125    243    478    971   1896
+   65536    120    125    247    481    981   1921
+
+        End of test Sat Feb 11 14:12:49 2017
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+ 
+
+From File /proc/version
+Linux version 4.4.36-8-default (geeko@buildhost) (gcc version 4.8.5 (SUSE Linux) ) #1 SMP Fri Dec 9 16:18:38 UTC 2016 (3ec5648)
+ 
+
+Additional information - 
+

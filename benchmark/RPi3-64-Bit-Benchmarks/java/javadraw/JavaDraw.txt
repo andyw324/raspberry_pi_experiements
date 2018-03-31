@@ -1,0 +1,41 @@
+
+ **************************************************
+
+   Java Drawing Benchmark, Mar 20 2017, 17:10:14
+            Produced by javac 1.6.0_27
+
+  Test                              Frames      FPS
+
+  Display PNG Bitmap Twice Pass 1       75     7.48
+  Display PNG Bitmap Twice Pass 2      110    10.84
+  Plus 2 SweepGradient Circles         107    10.66
+  Plus 200 Random Small Circles        102    10.12
+  Plus 320 Long Lines                   77     7.62
+  Plus 4000 Random Small Circles        37     3.66
+
+         Total Elapsed Time  60.5 seconds
+
+  Operating System    Linux, Arch. aarch64, Version 4.4.36-8-default
+  Java Vendor         Oracle Corporation, Version  1.8.0_111
+  null, null CPUs
+
+ **************************************************
+
+   Java Drawing Benchmark, Mar 20 2017, 17:12:27
+            Produced by javac 1.7.0_02
+
+  Test                              Frames      FPS
+
+  Display PNG Bitmap Twice Pass 1       82     8.15
+  Display PNG Bitmap Twice Pass 2      107    10.69
+  Plus 2 SweepGradient Circles         106    10.47
+  Plus 200 Random Small Circles        101    10.01
+  Plus 320 Long Lines                   79     7.80
+  Plus 4000 Random Small Circles        37     3.61
+
+         Total Elapsed Time  60.7 seconds
+
+  Operating System    Linux, Arch. aarch64, Version 4.4.36-8-default
+  Java Vendor         Oracle Corporation, Version  1.8.0_111
+  null, null CPUs
+

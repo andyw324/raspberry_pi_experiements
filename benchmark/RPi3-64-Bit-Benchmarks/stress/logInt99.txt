@@ -1,0 +1,28 @@
+ 
+ Stand Alone Test Command: ./stressintPi64 KB 40 Seconds 10 Log 99
+
+  ##############################################
+
+  Integer Stress Test RPi 64 Fri May  5 23:45:30 2017
+
+   40 KBytes Cache or RAM Space, 10 Seconds Per Test, 12 Tests
+
+ Write/Read
+  1    2575 MB/sec  Pattern 00000000 Result OK     314367 passes
+  2    2575 MB/sec  Pattern FFFFFFFF Result OK     314372 passes
+  3    2575 MB/sec  Pattern A5A5A5A5 Result OK     314368 passes
+  4    2575 MB/sec  Pattern 55555555 Result OK     314381 passes
+  5    2575 MB/sec  Pattern 33333333 Result OK     314366 passes
+  6    2575 MB/sec  Pattern F0F0F0F0 Result OK     314363 passes
+ Read
+  1    2646 MB/sec  Pattern 00000000 Result OK     646000 passes
+  2    2646 MB/sec  Pattern FFFFFFFF Result OK     646000 passes
+  3    2646 MB/sec  Pattern A5A5A5A5 Result OK     645900 passes
+  4    2646 MB/sec  Pattern 55555555 Result OK     646000 passes
+  5    2646 MB/sec  Pattern 33333333 Result OK     646000 passes
+  6    2646 MB/sec  Pattern F0F0F0F0 Result OK     646000 passes
+
+
+                   End at Fri May  5 23:47:30 2017
+
+

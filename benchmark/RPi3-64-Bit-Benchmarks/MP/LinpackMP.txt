@@ -1,0 +1,26 @@
+
+ ########################################################
+
+ Linpack Single Precision MultiThreaded Benchmark
+  64 Bit NEON Intrinsics, Tue Mar  7 22:30:51 2017
+
+   MFLOPS 0 to 4 Threads, N 100, 500, 1000
+
+ Threads      None        1        2        4
+
+ N  100     566.59   130.23   127.00   123.08 
+ N  500     475.35   349.60   346.54   340.43 
+ N 1000     355.27   326.07   324.62   325.75 
+
+ NR=norm resid RE=resid MA=machep X0=x[0]-1 XN=x[n-1]-1
+
+ N              100             500            1000
+
+ NR            1.97            5.40           13.51
+ RE  4.69621336e-05  6.44138840e-04  3.22485110e-03
+ MA  1.19209290e-07  1.19209290e-07  1.19209290e-07
+ X0 -1.31130219e-05  5.79357147e-05 -3.08930874e-04
+ XN -1.30534172e-05  3.51667404e-05  1.90019608e-04
+
+Thread
+ 0 - 4 Same Results    Same Results    Same Results

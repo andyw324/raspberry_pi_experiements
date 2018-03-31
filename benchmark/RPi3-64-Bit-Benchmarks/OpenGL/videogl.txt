@@ -1,0 +1,191 @@
+ #####################################################################
+sudo su
+echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+gcc (Gentoo 5.4.0-r2 p1.2, pie-0.6.5) 5.4.0
+
+
+From File /proc/cpuinfo
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+
+
+From File /proc/version
+Linux version 4.10.0-rc5-v8 (sakaki@chiyo) (gcc version 5.4.0 (Gentoo 5.4.0-r2 p1.2, pie-0.6.5) ) #1 SMP PREEMPT Wed Jan 25 20:13:50 GMT 2017
+
+ #####################################################################
+
+ GLUT OpenGL Benchmark 64 Bit Version 1, Sat Mar 18 12:21:34 2017
+
+          Running Time Approximately 5 Seconds Each Test
+
+ Window Size  Coloured Objects  Textured Objects  WireFrm  Texture
+    Pixels        Few      All      Few      All  Kitchen  Kitchen
+  Wide  High      FPS      FPS      FPS      FPS      FPS      FPS
+
+   320   240    148.5    111.7     66.1     45.6     26.7     16.5
+   640   480     75.3     69.7     47.9     41.0     26.2     16.2
+  1024   768     33.5     34.4     29.7     26.9     25.2     15.8
+  1920  1080     18.8     17.9     16.7     15.9     16.7     13.7
+
+                   End at Sat Mar 18 12:23:50 2017
+
+
+ #####################################################################
+
+
+From File /proc/cpuinfo
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32gcc (Gentoo 5.4.0-r2 p1.2, pie-0.6.5) 5.4.0
+
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+
+
+From File /proc/version
+Linux version 4.10.0-rc5-v8 (sakaki@chiyo) (gcc version 5.4.0 (Gentoo 5.4.0-r2 p1.2, pie-0.6.5) ) #1 SMP PREEMPT Wed Jan 25 20:13:50 GMT 2017
+
+ #####################################################################
+
+ GLUT OpenGL Benchmark 64 Bit Version 1, Sat Mar 18 12:42:09 2017
+
+          Running Time Approximately 5 Seconds Each Test
+
+ Window Size  Coloured Objects  Textured Objects  WireFrm  Texture
+    Pixels        Few      All      Few      All  Kitchen  Kitchen
+  Wide  High      FPS      FPS      FPS      FPS      FPS      FPS
+
+  1920  1080     26.2     25.0     21.2     19.2     16.9     13.7
+
+                   End at Sat Mar 18 12:42:42 2017
+
+ #####################################################################
+
+
+From File /proc/cpuinfo
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+
+
+From File /proc/version
+Linux version 4.10.0-rc5-v8 (sakaki@chiyo) (gcc version 5.4.0 (Gentoo 5.4.0-r2 p1.2, pie-0.6.5) ) #1 SMP PREEMPT Wed Jan 25 20:13:50 GMT 2017
+
+ #####################################################################
+
+ GLUT OpenGL Benchmark 64 Bit Version 1, Sat Mar 18 18:21:44 2017
+
+          Running Time Approximately 5 Seconds Each Test
+
+ Window Size  Coloured Objects  Textured Objects  WireFrm  Texture
+    Pixels        Few      All      Few      All  Kitchen  Kitchen
+  Wide  High      FPS      FPS      FPS      FPS      FPS      FPS
+
+   160   120    184.3    127.5     72.7     48.4     26.8     16.6
+   320   240    161.8    116.0     67.1     46.3     26.7     16.7
+   640   480     76.8     74.8     49.8     41.4     25.9     16.3
+  1024   768     35.7     34.8     29.7     26.7     25.0     15.7
+  1920  1080     18.0     18.7     16.4     15.8     17.1     13.1
+
+                   End at Sat Mar 18 18:24:35 2017
+
+

@@ -2,20 +2,25 @@ import urllib, time, random
 from datetime import datetime
 from urllib.request import urlopen, Request
 
-class PBIPost():
+def post(pbi_api_url, timestamp, cpu_temp, cpu_util, cpu_freq, amb_temp, amb_humid, heatsink, cover, starttime):
+    data = '[{{"timestamp" :"{0}", \
+"cpu_temp" :{1}, \
+"cpu_util" :{2},\
+"cpu_freq" :{3},\
+"amb_temp" :{4},\
+"amb_humid" :{5},\
+"heat_sink_on" :"{6}", \
+"cover_on" :"{7}", \
+"start_time" :"{8}"\
+}}]'.format(timestamp, cpu_temp, cpu_util, cpu_freq, amb_temp, amb_humid, heatsink, cover, starttime).encode('ascii')
 
+    print(data)
 
-    def __init__(self, pbi_api_url):
-        self.url = pbi_api_url
-
-    def post(self, timestamp, cputemp, cpuutil,heatsink, cover, starttime, ambienttemp):
-        self.data = '[{{"timestamp" :"{0}", \
-"tempurature" :{1}, \
-"cpu_utilisation" :{2}, \
-"heat_sink_on" :"{3}", \
-"cover_on" :"{4}", \
-"start_time" :"{5}", \
-"ambient_temp" :{6} \
-}}]'.format(timestamp, cputemp, cpuutil,heatsink, cover, starttime, ambienttemp).encode('ascii')
-        req = Request(self.url, self.data)
-        self.response = urlopen(req)
+    req = Request(pbi_api_url, data)
+    try:
+        response = urlopen(req, timeout=10)
+    except urllib.error.HTTPError as e:
+        print("HTTP Error: {0} - {1}".format(e.code, e.reason))
+    except TimeoutError:
+        print("Request timed out")
+        

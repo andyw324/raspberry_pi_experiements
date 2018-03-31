@@ -1,0 +1,139 @@
+
+ #####################################################
+
+ MP-MFLOPS armv8 64Bit Fri Feb 24 13:39:49 2017
+
+    FPU Add & Multiply using 1, 2, 4 and 8 Threads
+
+        2 Ops/Word              32 Ops/Word
+ KB     12.8     128   12800    12.8     128   12800
+ MFLOPS
+ 1T      731     719     393    1579    1575    1541
+ 2T     1446    1430     386    3153    3021    2859
+ 4T     2406    2178     380    5541    6047    4926
+ 8T     2233    2269     348    5513    5928    5064
+ Results x 100000, 0 indicates ERRORS
+ 1T    76406   97075   99969   66015   95363   99951
+ 2T    76406   97075   99969   66015   95363   99951
+ 4T    76406   97075   99969   66015   95363   99951
+ 8T    76406   97075   99969   66015   95363   99951
+
+         End of test Fri Feb 24 13:39:55 2017
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+ 
+
+From File /proc/version
+Linux version 4.4.36-8-default (geeko@buildhost) (gcc version 4.8.5 (SUSE Linux) ) #1 SMP Fri Dec 9 16:18:38 UTC 2016 (3ec5648)
+ 
+
+Additional information - 
+
+ #####################################################
+
+ #####################################################
+
+ MP-MFLOPS armv8 64Bit Tue Feb 28 13:54:20 2017
+
+    FPU Add & Multiply using 1, 2, 4 and 8 Threads
+
+        2 Ops/Word              32 Ops/Word
+ KB     12.8     128   12800    12.8     128   12800
+ MFLOPS
+ 1T      696     673     391    1537    1530    1488
+ 2T      693     674     390    1537    1513    1491
+ 4T      673     675     387    1535    1527    1488
+ 8T      672     702     387    1527    1532    1479
+ Results x 100000, 0 indicates ERRORS
+ 1T    76406   97075   99969   66015   95363   99951
+ 2T    76406   97075   99969   66015   95363   99951
+ 4T    76406   97075   99969   66015   95363   99951
+ 8T    76406   97075   99969   66015   95363   99951
+
+         End of test Tue Feb 28 13:54:30 2017
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+ 
+
+From File /proc/version
+Linux version 4.4.36-8-default (geeko@buildhost) (gcc version 4.8.5 (SUSE Linux) ) #1 SMP Fri Dec 9 16:18:38 UTC 2016 (3ec5648)
+ 
+
+Additional information - 
+

@@ -1,0 +1,13 @@
+# Run via separate terminals - logs < 100 
+# 12 tests at 80 seconds = 16 minutes
+# Change KB for RAM or cache test
+# Here 4 x 40 = 160 KBytes L2 cache
+# Plus temperature and CPU MHz measurements
+
+./RPiHeatMHz64S passes 100 seconds 10
+# For SUSE or RPiHeatMHz64G for Gentoo
+
+./stressintPi64 KB 40 Secs 80 Log 21
+./stressintPi64 KB 40 Secs 80 Log 22
+./stressintPi64 KB 40 Secs 80 Log 23
+./stressintPi64 KB 40 Secs 80 Log 24

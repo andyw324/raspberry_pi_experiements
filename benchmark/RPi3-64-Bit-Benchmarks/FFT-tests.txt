@@ -1,0 +1,93 @@
+
+ ###################################################
+
+   armv8 64 Bit FFT Benchmark Version 1.0 Sat Feb 11 16:03:24 2017
+
+  Size                     milliseconds
+    K     Single Precision              Double Precision
+    1     0.154     0.153     0.152     0.172     0.168     0.167
+    2     0.586     0.336     0.332     0.433     0.388     0.388
+    4     0.831     0.785     0.768     2.749     1.734     1.221
+    8     2.028     1.954     1.974     2.954     2.698     2.706
+   16     4.645     4.430     4.448     6.951     6.267     7.028
+   32    10.638    10.261    10.143    19.067    18.444    18.476
+   64    28.296    28.494    28.038   127.715   126.971   126.796
+  128   173.625   172.287   174.445   298.501   298.302   298.600
+  256   403.784   404.783   405.422   657.427   655.397   657.670
+  512   901.414   898.091   899.930  1433.054  1432.895  1431.773
+ 1024  1975.996  1976.156  1965.938  3175.944  3296.801  3102.192
+
+        1024 Square Check Maximum Noise Average Noise
+        SP   9.999520e-01  3.346482e-06  4.565234e-11
+        DP   1.000000e+00  1.133294e-23  1.428110e-28
+
+               End at Sat Feb 11 16:04:00 2017
+
+ ###################################################
+
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+ 
+
+From File /proc/version
+Linux version 4.4.36-8-default (geeko@buildhost) (gcc version 4.8.5 (SUSE Linux) ) #1 SMP Fri Dec 9 16:18:38 UTC 2016 (3ec5648)
+ 
+
+ ###################################################
+
+   armv8 64 Bit FFT Benchmark Version 3c.0 Sat Feb 11 16:04:38 2017
+
+  Size                     milliseconds
+    K     Single Precision              Double Precision
+    1     0.185     0.325     0.160     0.192     0.185     0.185
+    2     0.388     0.361     0.349     0.461     0.420     0.422
+    4     0.964     0.793     0.780     0.958     0.955     0.957
+    8     2.262     2.540     1.803     2.141     2.095     2.096
+   16     4.272     4.097     4.086     5.083     5.161     5.132
+   32     9.618     9.510     9.571    14.145    14.133    14.056
+   64    26.666    25.752    25.661    33.615    33.782    33.747
+  128    61.197    60.775    60.416    78.084    77.694    77.738
+  256   136.920   134.255   134.222   179.147   179.159   179.888
+  512   315.383   313.724   313.736   393.287   393.208   393.520
+ 1024   692.974   689.889   690.020   856.482   852.530   854.317
+
+        1024 Square Check Maximum Noise Average Noise
+        SP   9.999520e-01  3.346482e-06  4.565234e-11
+        DP   1.000000e+00  1.133294e-23  1.428110e-28
+
+               End at Sat Feb 11 16:04:54 2017
+

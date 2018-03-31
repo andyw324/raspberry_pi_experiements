@@ -1,0 +1,68 @@
+ ##############################################
+
+  NEON Speed Test armv8 64 Bit V 1.0 Sat Feb 11 14:17:02 2017
+
+       Vector Reading Speed in MBytes/Second
+  Memory  Float v=v+s*v  Int v=v+v+s   Neon v=v+v
+  KBytes   Norm   Neon   Norm   Neon  Float    Int
+
+      16   2390   4497   3479   4252   4784   4932
+      32   2266   3942   3212   3813   4218   4301
+      64   2187   3637   3062   3555   3849   3875
+     128   2205   3635   3106   3543   3830   3853
+     256   2207   3667   3128   3541   3863   3884
+     512   2096   3383   2909   3208   3518   3522
+    1024   1233   1366   1363   1321   1337   1382
+    4096   1100   1188   1186   1125   1155   1173
+   16384   1074   1087   1096   1003   1067   1084
+   65536   1067   1065   1083    875   1062   1064
+
+       End of test Sat Feb 11 14:17:22 2017
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+ 
+
+From File /proc/version
+Linux version 4.4.36-8-default (geeko@buildhost) (gcc version 4.8.5 (SUSE Linux) ) #1 SMP Fri Dec 9 16:18:38 UTC 2016 (3ec5648)
+ 
+
+Additional information - 
+

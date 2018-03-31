@@ -1,0 +1,66 @@
+ SUSE SLES
+
+ ###############################################################
+
+ Current Directory Path: 
+ /home/roy/driveLANSUSE
+ Total MB   29465, Free MB   27495, Used MB    1969
+
+ Linux Storage Speed Test 64-Bit Version 1.2, Mon Apr  3 23:52:42 2017
+
+                Copyright (C) Roy Longbottom 2012
+
+     8 MB File         1          2          3          4          5
+ Writing MB/sec      12.51      15.79      15.63       5.49       8.39
+ Reading MB/sec      47.64      58.97      40.79      54.14      44.69
+
+    16 MB File         1          2          3          4          5
+ Writing MB/sec       8.30      10.71       9.74      11.59       9.70
+ Reading MB/sec      48.06      52.13      56.91      51.53      64.26
+
+    32 MB File         1          2          3          4          5
+ Writing MB/sec       8.46       9.13       9.81      11.29      10.09
+ Reading MB/sec      55.83      52.62      48.85      22.65      22.74
+
+ ---------------------------------------------------------------------
+ 8 MB Cached File      1          2          3          4          5
+ Writing MB/sec     519.50     590.29     587.55     599.77     601.19
+ Reading MB/sec     594.66     699.69     707.82     714.90     716.10
+
+ ---------------------------------------------------------------------
+ Bus Speed Block KB     64        128        256        512       1024
+ Reading MB/sec    3152.76    3350.67    1721.96     802.96     728.82
+
+ ---------------------------------------------------------------------
+ 1 KB Blocks File MB >    2      4      8     16     32     64    128
+ Random Read  msecs    0.62   0.65   0.77   0.61   0.63   0.64   0.65
+ Random Write msecs    8.00  26.30  11.95  23.99  14.05  19.86  15.40
+
+ ---------------------------------------------------------------------
+ 500 Files   Write             Read             Delete
+ File KB     MB/sec  ms/File   MB/sec  ms/File  Seconds
+       2       0.14    14.61    57.27     0.04    0.072
+       4       0.28    14.44   149.23     0.03    0.082
+       8       0.60    13.65   426.87     0.02    0.073
+      16       0.99    16.51   517.48     0.03    0.082
+      32       1.72    19.08   642.59     0.05    0.073
+      64       2.74    23.92   287.25     0.23    0.094
+
+              End of test Mon Apr  3 23:55:13 2017
+
+
+OpenSUSE and Gentoo - Direct I/O function produces errors
+ ###############################################################
+
+ Current Directory Path: 
+ /home/benchmarks/driveLANOSUSE42
+ Total MB   14210, Free MB   10757, Used MB    3453
+
+ Linux Storage Speed Test 64-Bit Version 1.2, Tue Apr  4 13:31:58 2017
+
+                Copyright (C) Roy Longbottom 2012
+
+     8 MB File         1          2          3          4          5
+ Writing MB/sec Error writing file
+
+

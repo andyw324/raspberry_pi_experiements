@@ -1,0 +1,97 @@
+
+ #####################################################
+
+ MP-BusSpd armv8 64 Bit Tue Mar  7 22:44:44 2017
+
+   MB/Second Reading Data, 1, 2, 4 and 8 Threads
+   Staggered starting addresses to avoid caching
+
+  KB      Inc32  Inc16   Inc8   Inc4   Inc2  RdAll
+
+ 12.3 1T   2885   2407   2576   2093   1460   1521
+      2T   4764   4197   4944   3960   2890   2929
+      4T   6842   6443   8343   6997   5360   5667
+      8T   4563   4352   6368   6106   4600   5184
+122.9 1T    545    584   1043   1596   1456   1462
+      2T    872    890   1718   3001   2807   2861
+      4T    828    900   1859   3687   5523   5789
+      8T    866    913   1875   3691   5477   5704
+12288 1T    113    123    244    486    915   1145
+      2T     69    125    226    435   1149   1964
+      4T     86     91    268    490    998   2092
+      8T     89    104    219    480    976   1798
+
+         No Errors Found
+
+         End of test Tue Mar  7 22:44:57 2017
+ #####################################################
+
+ MP-BusSpd armv8 64 Bit Wed Mar  8 17:50:10 2017
+
+   MB/Second Reading Data, 1, 2, 4 and 8 Threads
+   Staggered starting addresses to avoid caching
+
+  KB      Inc32  Inc16   Inc8   Inc4   Inc2  RdAll
+
+ 12.3 1T   2880   2470   2693   2092   1497   1450
+      2T   4752   4164   4814   3948   2873   2990
+      4T   6088   4004   7580   6898   5286   4204
+      8T   4042   3801   5356   5113   3613   4622
+122.9 1T    513    564    967   1641   1454   1455
+      2T    834    873   1704   2938   2861   2865
+      4T    888    896   1859   3012   5519   3584
+      8T    866    852   1823   3691   5396   4211
+12288 1T    111    100    121    474    608   1256
+      2T     95     78    137    277    572    758
+      4T     92    116    181    331    679   1152
+      8T     99     88    218    403    794   1482
+
+         No Errors Found
+
+         End of test Wed Mar  8 17:50:23 2017
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+ 
+
+From File /proc/version
+Linux version 4.4.36-8-default (geeko@buildhost) (gcc version 4.8.5 (SUSE Linux) ) #1 SMP Fri Dec 9 16:18:38 UTC 2016 (3ec5648)
+ 
+

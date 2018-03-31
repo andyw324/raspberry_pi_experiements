@@ -1,0 +1,18 @@
+ Stand Alone Test Command:./burninfpuPi64 Kwds 10 Sect 2 Mins 1 Log 88
+
+ ##############################################
+
+    Burn-In-FPU RPi 64 Fri May  5 23:51:37 2017
+
+ Using 40 KBytes, 8 Operations Per Word, For Approximately 1 Minutes
+
+   Pass     4 Byte  Ops/   Repeat    Seconds   MFLOPS          First   All
+             Words  Word   Passes                            Results  Same
+
+      1      10000     8   688000      15.03     3662    0.539296687   Yes
+      2      10000     8   688000      15.03     3662    0.539296687   Yes
+      3      10000     8   688000      15.03     3663    0.539296687   Yes
+      4      10000     8   688000      15.03     3663    0.539296687   Yes
+
+                   End at Fri May  5 23:52:37 2017
+

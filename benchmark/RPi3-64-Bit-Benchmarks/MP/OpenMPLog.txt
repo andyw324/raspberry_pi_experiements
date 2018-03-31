@@ -1,0 +1,141 @@
+
+##############################################
+
+            notOpenMP MFLOPS64 Fri Feb 24 15:47:32 2017
+
+  Test             4 Byte  Ops/   Repeat    Seconds   MFLOPS       First   All
+                    Words  Word   Passes                         Results  Same
+
+##############################################
+
+            notOpenMP MFLOPS64 Fri Feb 24 15:48:41 2017
+
+  Test             4 Byte  Ops/   Repeat    Seconds   MFLOPS       First   All
+                    Words  Word   Passes                         Results  Same
+
+ Data in & out     100000     2     2500   0.696362      718    0.929538   Yes
+ Data in & out    1000000     2      250   1.202102      416    0.992550   Yes
+ Data in & out   10000000     2       25   1.140033      439    0.999250   Yes
+
+ Data in & out     100000     8     2500   1.162491     1720    0.957117   Yes
+ Data in & out    1000000     8      250   1.504922     1329    0.995518   Yes
+ Data in & out   10000000     8       25   1.478444     1353    0.999549   Yes
+
+ Data in & out     100000    32     2500   5.346043     1496    0.890215   Yes
+ Data in & out    1000000    32      250   5.482719     1459    0.988088   Yes
+ Data in & out   10000000    32       25   5.477190     1461    0.998796   Yes
+
+                End of test Fri Feb 24 15:49:05 2017
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+ 
+
+From File /proc/version
+Linux version 4.4.36-8-default (geeko@buildhost) (gcc version 4.8.5 (SUSE Linux) ) #1 SMP Fri Dec 9 16:18:38 UTC 2016 (3ec5648)
+ 
+
+
+
+##############################################
+
+            OpenMP MFLOPS64 Fri Feb 24 16:49:35 2017
+
+  Test             4 Byte  Ops/   Repeat    Seconds   MFLOPS       First   All
+                    Words  Word   Passes                         Results  Same
+
+ Data in & out     100000     2     2500   0.229756     2176    0.929538   Yes
+ Data in & out    1000000     2      250   1.230560      406    0.992550   Yes
+ Data in & out   10000000     2       25   1.159971      431    0.999250   Yes
+
+ Data in & out     100000     8     2500   0.344756     5801    0.957117   Yes
+ Data in & out    1000000     8      250   1.245537     1606    0.995518   Yes
+ Data in & out   10000000     8       25   1.187876     1684    0.999549   Yes
+
+ Data in & out     100000    32     2500   1.373730     5824    0.890215   Yes
+ Data in & out    1000000    32      250   1.519274     5266    0.988088   Yes
+ Data in & out   10000000    32       25   1.469316     5445    0.998796   Yes
+
+                End of test Fri Feb 24 16:49:45 2017
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+ 
+
+From File /proc/version
+Linux version 4.4.36-8-default (geeko@buildhost) (gcc version 4.8.5 (SUSE Linux) ) #1 SMP Fri Dec 9 16:18:38 UTC 2016 (3ec5648)
+ 

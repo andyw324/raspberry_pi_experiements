@@ -1,0 +1,71 @@
+ #####################################################
+
+     Memory Reading Speed Test armv8 64 Bit by Roy Longbottom
+
+               Start of test Sat Feb 11 14:00:54 2017
+
+  Memory   x[m]=x[m]+s*y[m] Int+   x[m]=x[m]+y[m]         x[m]=y[m]
+  KBytes    Dble   Sngl  Int32   Dble   Sngl  Int32   Dble   Sngl  Int32
+    Used    MB/S   MB/S   MB/S   MB/S   MB/S   MB/S   MB/S   MB/S   MB/S
+
+       8    4227   2544   3814   5431   3471   4237   4721   3794   3794
+      16    4238   2553   3826   5458   3479   4246   4759   3815   3816
+      32    4212   2551   3826   5456   3479   4246   4777   3825   3825
+      64    3315   2307   3264   4103   3042   3559   4544   3730   3728
+     128    3295   2321   3302   4036   3074   3564   4340   3574   3575
+     256    3327   2318   3322   4038   3086   3581   4356   3588   3588
+     512     935   2071   2810   3355   2643   3024   3848   3063   2876
+    1024     645    939   1299   1326   1295   1292   1338   1573   1577
+    2048     648    887   1132   1149   1143   1137   1020   1067   1060
+    4096     656    906   1134   1147   1145   1135    981    886    918
+    8192     648    943   1155   1158   1155   1161   1003   1032   1009
+
+                End of test Sat Feb 11 14:01:10 2017
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+ 
+
+From File /proc/version
+Linux version 4.4.36-8-default (geeko@buildhost) (gcc version 4.8.5 (SUSE Linux) ) #1 SMP Fri Dec 9 16:18:38 UTC 2016 (3ec5648)
+ 
+
+Additional information - 
+

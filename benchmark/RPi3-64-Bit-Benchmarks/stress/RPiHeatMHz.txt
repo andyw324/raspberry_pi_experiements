@@ -1,0 +1,54 @@
+ Command for SUSE: ./RPiHeatMHz64S passes 6 seconds 10
+
+ ##################################################
+
+ Temperature and CPU MHz Measurement
+
+ Start at Sat May  6 00:11:21 2017
+
+ Using 6 samples at 10 second intervals
+
+ Seconds
+    0.0     1200 cpuinfo_cur_freq MHz, bcm2835_thermal-virtual-0
+temp1:        +42.9°C  
+
+   10.0     1200 cpuinfo_cur_freq MHz, bcm2835_thermal-virtual-0
+temp1:        +43.5°C  
+
+   20.0     1200 cpuinfo_cur_freq MHz, bcm2835_thermal-virtual-0
+temp1:        +43.5°C  
+
+   30.1     1200 cpuinfo_cur_freq MHz, bcm2835_thermal-virtual-0
+temp1:        +42.9°C  
+
+   40.1     1200 cpuinfo_cur_freq MHz, bcm2835_thermal-virtual-0
+temp1:        +43.5°C  
+
+   50.1     1200 cpuinfo_cur_freq MHz, bcm2835_thermal-virtual-0
+temp1:        +42.9°C  
+
+   60.2     1200 cpuinfo_cur_freq MHz, 
+ End at   Sat May  6 00:12:21 2017
+
+ ==================================================
+ Gentoo ./RPiHeatMHz64G by itself, on demand performance
+
+ ###################################################
+
+ Temperature and CPU MHz Measurement
+
+ Start at Sat May  6 12:21:42 2017
+
+ Using 6 samples at 10 second intervals
+
+ Seconds
+    0.0      600 scaling MHz,   1200 ARM MHz, temp=46.2'C
+   10.0      600 scaling MHz,    600 ARM MHz, temp=45.6'C
+   20.2      600 scaling MHz,   1200 ARM MHz, temp=46.2'C
+   30.5      600 scaling MHz,    600 ARM MHz, temp=45.6'C
+   40.7      600 scaling MHz,   1200 ARM MHz, temp=45.1'C
+   51.0      600 scaling MHz,    600 ARM MHz, temp=45.1'C
+   61.2      600 scaling MHz,    600 ARM MHz, temp=45.6'C
+
+ End at   Sat May  6 12:22:44 2017
+

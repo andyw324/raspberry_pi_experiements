@@ -1,0 +1,113 @@
+ Main Drive SUSE SLES - direct I/O available
+ #####################################################
+
+   DriveSpeed RasPi 64 Bit 1.1 Mon Apr  3 23:40:21 2017
+ 
+ Current Directory Path: /home/roy/driveLANSUSE
+ Total MB   29465, Free MB   27495, Used MB    1970
+
+                        MBytes/Second
+  MB   Write1   Write2   Write3    Read1    Read2    Read3
+
+   8    10.26    15.50     7.78    47.27    51.62    48.91
+  16    10.58    13.86    10.14    54.05    55.50    45.78
+ Cached
+   8   520.96   586.68   601.25   709.43   709.23   706.46
+
+ Random         Read                       Write
+ From MB        4        8       16        4        8       16
+ msecs      0.005    0.004    0.004    16.91    20.31    22.13
+
+ 200 Files      Write                      Read                  Delete
+ File KB        4        8       16        4        8       16     secs
+ MB/sec      0.25     0.36     1.06   252.55   403.28   621.47
+ ms/file    16.10    23.00    15.43     0.02     0.02     0.03    0.029
+
+
+                End of test Mon Apr  3 23:40:59 2017
+
+ SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+ 
+
+From File /proc/version
+Linux version 4.4.21-69-default (geeko@buildhost) (gcc version 4.8.5 (SUSE Linux) ) #1 SMP Tue Oct 25 10:58:20 UTC 2016 (9464f67)
+ 
+
+ Additional information - 
+
+ OpenSUSE and Gentoo - Direct I/O function produces errors
+#####################################################
+
+Linux version 4.4.36-8-default (geeko@buildhost) (gcc version 4.8.5 (SUSE Linux) ) #1 SMP Fri Dec 9 16:18:38 UTC 2016 (3ec5648)
+
+    DriveSpeed RasPi 64 Bit 1.1 Tue Apr  4 13:30:55 2017
+        Copyright (C) 2017 Roy Longbottom
+
+ Current Directory Path: /home/benchmarks/driveLANOSUSE42
+ Total MB   14210, Free MB   10757, Used MB    3453
+
+                        MBytes/Second
+  MB   Write1   Write2   Write3    Read1    Read2    Read3
+
+   8
+ Error writing file
+
+Segmentation fault (core dumped)
+
+===================================================================
+
+Linux version 4.10.0-rc5-v8 (sakaki@chiyo) (gcc version 5.4.0 (Gentoo 5.4.0-r2 p1.2, pie-0.6.5) ) #1 SMP PREEMPT Wed Jan 25 20:13:50 GMT 2017
+
+    DriveSpeed RasPi 64 Bit 1.1 Tue Apr  4 10:31:20 2017
+        Copyright (C) 2017 Roy Longbottom
+
+ Current Directory Path: /home/demouser/driveLANGENTOO
+ Total MB   14118, Free MB    7431, Used MB    6688
+
+                        MBytes/Second
+  MB   Write1   Write2   Write3    Read1    Read2    Read3
+
+   8
+ Error writing file
+
+Segmentation fault
+
+ 
